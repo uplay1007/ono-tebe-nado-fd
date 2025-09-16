@@ -61,7 +61,7 @@ a {
 .cover {
     position: relative;
     max-height: 757px; 
-    background-image: url(/images/cover.png);
+    background-image: url(/images/cover.jpg);
     background-size: cover;
     background-position: center;
     padding: 165px 50px 50px;
@@ -202,15 +202,15 @@ a {
 }
 
 .card_direct {
-    background-image: url(/images/lot1.png);
+    background-image: url(/images/card-lot-01.jpg);
 }
 .card_book {
-    background-image: url(/images/lot2.jpg);
+    background-image: url(/images/card-lot-02.jpg);
     
 }
 
 .card_picture {
-    background-image: url(/images/lot3.png);
+    background-image: url(/images/card-lot-03.jpg);
     
 }
 
