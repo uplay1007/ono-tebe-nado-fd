@@ -15,7 +15,7 @@ a {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 96px 50px 92px;
+    padding: 92px 50px 96px;
     box-sizing: border-box;
 }
 
@@ -60,7 +60,7 @@ a {
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
-    padding: 165px 50px 45px;
+    padding: 165px 50px 50px;
 }
 
 .cover_title {
@@ -69,7 +69,7 @@ a {
     justify-content: flex-end;
     color: white;
     flex-direction: column;
-    row-gap: 25px;
+    row-gap: 20px;
     margin-bottom: 106px;
     text-transform: uppercase;
     font-weight: bold;
@@ -78,7 +78,7 @@ a {
 }
 .aligned-text {
     display: block;
-    line-height: 1;
+    line-height: 1.15;
 } 
 .aligned-text-left {
     text-align: left;
@@ -102,9 +102,8 @@ a {
     color: white;
     font-size: 22px;
     line-height: 28px;
-    word-spacing: 20px;
+    word-spacing: 19px;
     text-transform: uppercase;
-    margin-left:10px;
 
 }
 .desc_btn {
@@ -116,7 +115,7 @@ a {
     box-shadow: none;
     border: 1px solid white;
     background-color: transparent;
-    margin-left: 75px; 
+    margin-left: auto; 
     font-weight: 400;
     color: white;
     font-size: 22px;
@@ -126,10 +125,10 @@ a {
 
 
 .lots {
-    margin: 180px 24px 120px;
+    margin: 182px 24px 128px;
 }
 .lot_phrase {
-    margin: 0px 0px 27px 40px;
+    margin: 0px 0px 32px 40px;
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
@@ -217,7 +216,7 @@ a {
 .about {
     display: grid;
     grid-template-columns: 334px 1fr;
-    margin: 120px 24px 180px;
+    margin: 0 24px 180px;
 
 }
 .logo_container {
@@ -239,9 +238,9 @@ a {
 .about_desc {
     display: flex;
     flex-wrap: wrap;
-    margin: 98px 0 0;
+    margin: 104px 0 0;
     padding-left: 25px;
-    gap: 100px;
+    gap: 104px;
 }
 .about_title {
     font-weight: 700;
@@ -254,7 +253,7 @@ a {
 .about_text {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 24px;
     padding-right: 5px;
 }
 .about_text_paragraph {
